@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+/* Global styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4, h5, p, h6 {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    padding: 120px;
+    overflow: hidden;
+}
+/* End of global styling */
+
+
+/* RESULT SECTION STARTS  */
+.result {
+    border: 2px solid linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 60px;
+    border-radius: 24px;
+    overflow: hidden;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.result h4 {
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 12px;
+}
+.score {
+    border-radius: 160px;
+    width:160px;
+    height: 160px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 24px;
+    padding: 24px;
+    line-height: 1;
+}
+.score h5 {
+    font-size: 80px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+.score p {
+    color: hsl(241, 100%, 89%);
+}
+.remark {
+    margin-top: 20px;
+}
+.remark h5 {
+   color: hsl(0, 0%, 100%);
+   font-size: 24px; 
+   line-height: 3;
+}
+.remark p {
+    width: 100%;
+    color: hsl(241, 100%, 89%);
+    word-wrap: normal;
+    word-spacing: 8px;
+}
+/* RESULT SECTION ENDS  */
+
+/* RESULT SECTION STARTS  */
+.summary {
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 50px;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 50%;
+    background: hsl(0, 0%, 100%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.summary h4 {
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 12px;
+}
+.reaction, .memory, .verbal, .visual {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    width: 100%;
+    margin-right: 22px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.08);
+}
+.reaction h6  {
+    color: hsl(0, 100%, 67%);
+    margin-left: 12px;
+    margin-right: 32px;
+    font-size: 18px;
+}
+.memory {
+    background: hsla(39, 100%, 56%, 0.08);
+}
+.verbal {
+    background: hsla(166, 100%, 37%, 0.08);
+}
+.visual {
+    background:hsla(234, 85%, 45%, 0.08);
+}
+.memory h6 {
+    color: hsl(39, 100%, 56%);
+    margin-left: 12px;
+    margin-right: 32px;
+    font-size: 18px;
+}
+.verbal h6 {
+    color: hsl(166, 100%, 37%);
+    margin-left: 12px;
+    margin-right: 32px;
+    font-size: 18px;
+}
+.visual h6 {
+    color: hsl(234, 85%, 45%);
+    margin-left: 12px;
+    margin-right: 32px;
+    font-size: 18px;
+}
+.btn {
+    padding: 12px;
+    border: 2px solid hsl(224, 30%, 27%);
+    text-align: center;
+    width: 100%;
+    border-radius: 18px;
+    background: hsl(224, 30%, 27%);
+    margin-top: 40px;
+}
+.btn:hover {
+     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+     border: 2px solid linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+     cursor: pointer;
+}
